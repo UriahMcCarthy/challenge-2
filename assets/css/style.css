@@ -1,0 +1,115 @@
+.page {
+    background-image: linear-gradient(to bottom right, rgba(26, 82, 4, 0.664), rgba(144, 144, 18, 0.488));
+
+}
+
+a {
+    color: rgba(255, 255, 255, 0.839);
+}
+
+.name {
+    color:rgba(255, 255, 255, 0.969);
+    text-align: center;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding: 100px;
+    letter-spacing: 11px;
+}
+
+.flex-container {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    display: flex;
+    text-align: center;
+    justify-content: space-evenly;
+    background-color: rgba(149, 149, 149, 0.243);
+    padding: 25px 45px 25px 45px;
+}
+
+
+.about_section {
+    display:flex;
+
+}
+
+#img {
+    margin: 50px;
+    border-radius: 50%;
+    border: 7px solid rgba(108, 108, 108, 0.572);
+    align-items: center;
+}
+
+.about_title {
+    color:rgb(92, 92, 92);
+    padding: 50px 45px 0px 20px;
+    display: flex;
+    justify-content:flex-start;
+    font-family:'Arial';
+
+}
+
+.about {
+    color:rgb(92, 92, 92);
+    padding: 0px 20px 20px 20px;
+    display: flex;
+    justify-content:flex-end;
+    font-family:'Arial';
+}
+
+#work_title {
+    color:rgb(92, 92, 92);
+    padding: 50px 45px 0px 20px;
+    display: flex;
+    justify-content:center;
+    font-family:'Arial';
+}
+
+
+
+.list {
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+li {
+    list-style-type:none;
+    font-size: x-large;
+    font-family:'Arial';
+}
+
+
+#app1 {
+    padding: 150px;
+    background-image: url("https://bloomidea.com/sites/default/files/styles/og_image/public/blog/20-%2010%20dicas%20para%20uma%20descric%CC%A7a%CC%83o%20criativa%20e%20funcional%20nas%20app%20stores_0.png?itok=5jrqm3Di");
+    background-size: 200%;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+
+#app2 {
+    padding: 150px;
+    background-color: rgba(245, 245, 220, 0.411);
+}
+
+#app3 {
+    padding: 150px;
+    background-color: rgba(137, 43, 226, 0.325);
+}
+
+#app4 {
+    padding: 150px;
+    background-color: rgba(0, 0, 255, 0.376);
+}
+
+#app5 {
+    padding: 150px;
+    background-color: rgba(165, 42, 42, 0.329);
+    
+}
+
+.footer_section {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    display: flex;
+    text-align: center;
+    justify-content: space-evenly;
+}
